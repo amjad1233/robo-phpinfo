@@ -1,0 +1,23 @@
+{
+    "name": "amjad1233/robo-phpinfo",
+    "description": "Outputs PHP Info in a friendly way..",
+    "type": "library",
+    "require": {
+        "consolidation/robo": "1.4.9",
+        "jakub-onderka/php-console-color": "^0.2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload":{
+        "psr-4":{
+            "Amjad\\Robo\\":"src"
+        }
+    },
+    "authors": [
+        {
+            "name": "amjad1233",
+            "email": "amjad1233@gmail.com"
+        }
+    ]
+}
