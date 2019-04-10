@@ -8,10 +8,10 @@ namespace Amjad\Robo\Task\PHPinfo;
 trait loadTasks {
 
   /**
-   * @return \Amjad\Robo\Task\Run\Run
+   * @return \Amjad\Robo\Task\PHPinfo\PHPInfo
    */
   protected function taskPHPInfo() {
-    return $this->task(\Amjad\Robo\Task\PHPinfo\Run::class);
+    return $this->task(\Amjad\Robo\Task\PHPinfo\PHPInfo::class);
   }
 
 }

@@ -2,8 +2,6 @@
 
 namespace Amjad\Robo\Task\PHPinfo;
 
-use Amjad\Robo\Task\Base\Base;
-
 /**
  * Runs simple php --info.
  *
@@ -15,13 +13,13 @@ use Amjad\Robo\Task\Base\Base;
  * ?>
  * ```
  */
-class PHPInfo extends Base {
+class PHPInfo extends \Amjad\Robo\Task\PHPinfo\Base {
 
   /**
    *
    */
-  public function __construct() {
-    $this->command = 'php --info';
+  public function __construct($arguments) {
+    $this->command = phpinfo(INFO_MODULES);
   }
 
   /**

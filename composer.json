@@ -1,6 +1,6 @@
 {
     "name": "amjad1233/robo-phpinfo",
-    "description": "Outputs PHP Info in a friendly way..",
+    "description": "Outputs PHP Info in a friendly way.",
     "type": "library",
     "require": {
         "consolidation/robo": "1.4.9",
